@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 20px 300px;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-link {
+    display: flex;
+    gap: 35px;
+    color: #7f858e;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 100px 300px
+
+}
+
+.hero-text {
+    padding-right: 350px;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.hero-body {
+    font-size: 18px;
+    color: #7f858e;
+}
+
+.hero-image img {
+    transform: rotate(90deg);
+    margin-top: -50px
+}
+.signup-button {
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.signup-button:hover{
+    color: #3882F6;
+    background-color: #fff;
+    transition: 0.1s ease
+}
+
+.information {
+    padding:20px 300px
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px 0 50px
+}
+
+.information-row {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 150px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.box img {
+    border-radius: 5px;
+    border: 4px #3882F6 solid;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+    margin-top: 50px;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-footer {
+    text-align: right;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cta-wrapper {
+    padding: 100px 300px;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #fff;
+    border-radius: 5px;
+    padding: 50px 150px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-title {
+    font-weight: bolder;
+    font-size: 22px;
+    padding-bottom: 10px
+}
+
+.cta-button {
+    border: 2px solid #fff;
+    padding: 6px 28px;
+}
+
+.cta-body {
+    color: #dce0e7;
+    font-weight: 300
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #c8cdd6;
+}
